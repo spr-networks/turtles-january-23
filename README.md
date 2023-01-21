@@ -12,7 +12,7 @@ This is a self hosted challenge -- your goal is to pivot from t1_start across th
 ## Running the system
 ```
 docker-compose up -d
-./setup.sh
+sudo ./setup.sh
 
 docker exec -it t1_start bash or ssh root@localhost -p 2222 (password is mutant_n1nj4_turtle)
 ```
