@@ -1,0 +1,50 @@
+version: '3'
+
+networks:
+    default:
+      driver_opts:
+        com.docker.network.bridge.enable_icc: "false"
+
+services:
+  t1_ap:
+    init: true
+    container_name: t1_ap
+    image: ghcr.io/spr-networks/turtles-jan_t1_ap:latest
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    entrypoint: ["/bin/sleep", "1000000000"]
+  t1_sta2:
+    init: true
+    container_name: t1_sta2
+    image: ghcr.io/spr-networks/turtles-jan_t1_sta2:latest
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    entrypoint: ["/bin/sleep", "1000000000"]
+  t1_start:
+    init: true
+    container_name: t1_start
+    image: ghcr.io/spr-networks/turtles-jan_t1_start:latest
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    entrypoint: ["/bin/sleep", "1000000000"]
+    ports:
+      - "2222:22"
+  t2_ap:
+    init: true
+    container_name: t2_ap
+    image: ghcr.io/spr-networks/turtles-jan_t2_ap:latest
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    entrypoint: ["/bin/sleep", "1000000000"]
+  t2_sta2:
+    init: true
+    container_name: t2_sta2
+    image: ghcr.io/spr-networks/turtles-jan_t2_sta2:latest
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    entrypoint: ["/bin/sleep", "1000000000"]
