@@ -11,6 +11,9 @@ Turtles Contest - January 23
 
 This is a self hosted challenge -- your goal is to pivot from t1_start across the environment and collect three flags along the way. 
 
+## Dependencies
+See host-install.sh. Make sure wireless-regdb is installed on the host, along with the mac hwsim drivers. It was observed that missing the regulatory db on the host stops the challenges from running correctly.
+
 ## Running the system
 ```
 docker-compose up -d
