@@ -12,7 +12,7 @@ https://www.supernetworks.org/pages/blog/january-2023-turtles
 
 ## Winners:
 
-1. @itszn13 
+1. [@itszn](https://twitter.com/itszn13)
 
 ## Rules 
 1. Submit writeups by e-mail to turtles@supernetworks.org
