@@ -1,7 +1,18 @@
 # turtles-january-23
 Turtles Contest - January 23
 
+
 ![image](https://user-images.githubusercontent.com/37549748/213887535-f6399acf-991e-4fbc-9a9f-bb0312110145.png)
+
+## Writeup
+
+https://www.supernetworks.org/pages/blog/january-2023-turtles
+
+# Submissions are now over
+
+## Winners:
+
+1. @itszn13 
 
 ## Rules 
 1. Submit writeups by e-mail to turtles@supernetworks.org
